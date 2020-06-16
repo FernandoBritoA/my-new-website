@@ -126,3 +126,37 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  #about {
+    .container {
+      .about-wrapper {
+        width: 100%;
+        margin: 0;
+        .skills {
+          width: 100%;
+
+          ul {
+            padding: 0;
+          }
+
+          li {
+            font-size: 12px;
+            width: 33%;
+            height: 28px;
+            margin-right: 1px;
+            padding-top: 3px;
+
+            .original {
+              display: none;
+            }
+            .hidden {
+              display: inline-block;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
